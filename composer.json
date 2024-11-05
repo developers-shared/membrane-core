@@ -7,6 +7,10 @@
       "Membrane\\": "src/"
     }
   },
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/developers-shared/openapi-router"
+  }],
   "autoload-dev": {
     "psr-4": {
       "Membrane\\Tests\\": "tests/",
@@ -18,9 +22,9 @@
     "cebe/php-openapi": "^1.7",
     "psr/http-message": "^1.0 || ^2.0",
     "psr/log": "^2.0 || ^3.0",
-    "symfony/console": "^6.2",
+    "symfony/console": "^7.1",
     "membrane/openapi-reader": "^2.0.0",
-    "membrane/openapi-router": "^0.4.0"
+    "membrane/openapi-router": "dev-main"
   },
   "require-dev": {
     "phpunit/phpunit": "^10.1",
